@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:floating_search_bar/floating_search_bar.dart';
+import 'package:git_pro/tab/repo.dart';
 import 'logic/home.dart';
+import 'package:git_pro/tab/profile.dart';
 
 
 
@@ -16,6 +18,10 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       theme: ThemeData.dark(),
       home: Logic(),
+    routes: {
+        Repo.id : (context) => Repo(),
+        Profile.id : (context) => Profile(),
+    }
     );
   }
 

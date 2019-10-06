@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   floating_search_bar: ^0.2.0
   provider: ^3.1.0
+  expandable: ^3.0.0+1
 
 
 dev_dependencies:
